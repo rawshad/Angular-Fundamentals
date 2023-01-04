@@ -1,0 +1,15 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #556270 , #ff6b6b);
+    height: 100vh;
+    text-align: center;
+    button {
+        padding: 0.5rem;
+        border-radius: 0.2rem;
+        background: #000;
+        color: white;
+    }
+}
