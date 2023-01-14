@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   template: `<div class="">
     <input type="text" 
     [value]="name" (input)= "handleInput($event)">
-    <!-- <template [ngIf]="name.length > 2"]>
+    <template [ngIf]="name.length > 2"]>
     <div>Searching for ... {{name}}</div>
-    </template> -->
+    </template>
     <div *ngIf="name.length > 2">Searching for ... {{name}}</div>
   </div>`
 })
