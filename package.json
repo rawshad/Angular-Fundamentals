@@ -1,0 +1,9 @@
+{
+  "name": "angular-fundamentals",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "repository": "https://github.com/rawshad/Angular-Fundamentals.git",
+  "author": "rawshad <rawshad@outlook.com>",
+  "license": "MIT",
+  "private": false
+}
